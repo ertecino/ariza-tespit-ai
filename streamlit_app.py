@@ -86,7 +86,7 @@ with tab2:
     st.write("---")
     
     st.subheader("📖 Tüm Veri Setinin Detaylı Durumu")
-    st.dataframe(master_data, use_container_width=True)
+    st.dataframe(master_data, use_container_width='stretch')
 
 with tab3:
     st.header("Tekil İstasyon Senaryo Analizi")
